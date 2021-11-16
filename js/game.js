@@ -23,7 +23,7 @@ fly.score_audio = "audio/score.mp3";
 
 var gap = 90;
 
-document.addEventListener("keydown",moveUp);
+document.addEventListener("click",moveUp);
 
 function moveUp(){
     yPos -= 25;
